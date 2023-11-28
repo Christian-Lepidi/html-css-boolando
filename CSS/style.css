@@ -36,3 +36,38 @@
 }
 
 /*FINE HEADER*/
+
+.main-container{
+        display: flex;
+        width: 80%;
+        min-height: 1000px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+section {
+    height: 500px;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.images{
+    max-width: 100%;
+}
+
+.first{
+    position: relative;
+}
+
+.second{
+    margin-top: 80px;
+    position: relative;
+}
+
+
+
+
+
