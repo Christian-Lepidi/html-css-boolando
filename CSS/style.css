@@ -56,16 +56,53 @@ section {
 
 .images{
     max-width: 100%;
+    
 }
 
-.first{
-    position: relative;
+#first{
+   background-image:url(../img/1b.webp);
+   background-size: cover;
 }
 
-.second{
+#second{
+    background-image:url(../img/2b.webp);
+    background-size: cover;
+}
+
+#third{
+    background-image:url(../img/3b.webp);
+    background-size: cover;
+}
+
+#fourth{
     margin-top: 80px;
-    position: relative;
+    background-image:url(../img/4.webp);
+    background-size: cover;
 }
+ 
+#fifth{
+    margin-top: 80px;
+    background-image:url(../img/5b.webp);
+    background-size: cover;
+}
+
+#sixth{
+    margin-top: 80px;
+    background-image:url(../img/6b.webp);
+    background-size: cover;
+}
+
+.sale{
+    padding: 5px;
+    background-color: red;    
+}
+
+.label{
+    padding: 5px;
+    background-color: rgb(6, 131, 6);
+    margin-left: 1px;
+}
+
 
 
 
