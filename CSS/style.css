@@ -37,64 +37,57 @@
 
 /*FINE HEADER*/
 
-.main-container{
-        display: flex;
-        width: 80%;
-        min-height: 1000px;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: space-between;
-        flex-wrap: wrap;
+.container{
+    max-width: 80%; 
+    margin: 0 auto; 
+    padding: 0 15px;
 }
 
-section {
-    height: 500px;
-    margin-top: 50px;
-    width: 30%;
+#products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cards{
+    width: 390px;
+    min-height: 500px;
+    margin: 10px;
+    position: relative;
 }
 
 .images{
     max-width: 100%;
-    
 }
 
-#first{
-   background-image:url(../img/1b.webp);
-   background-size: cover;
-}
-
-#second{
-    background-image:url(../img/2b.webp);
-    background-size: cover;
-}
-
-#third{
-    background-image:url(../img/3b.webp);
-    background-size: cover;
-}
-
-#fourth{
+.sec{
     margin-top: 80px;
-    background-image:url(../img/4.webp);
-    background-size: cover;
-}
- 
-#fifth{
-    margin-top: 80px;
-    background-image:url(../img/5b.webp);
-    background-size: cover;
 }
 
-#sixth{
-    margin-top: 80px;
-    background-image:url(../img/6b.webp);
-    background-size: cover;
+.sale-label{
+    position: absolute;
+    bottom: 50px;
+}
+
+.heart{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.heart2{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 85px;  
 }
 
 .sale{
     padding: 5px;
-    background-color: red;    
+    background-color: red;
 }
 
 .label{
@@ -102,6 +95,8 @@ section {
     background-color: rgb(6, 131, 6);
     margin-left: 1px;
 }
+
+
 
 
 
