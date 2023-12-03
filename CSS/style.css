@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 /*HEADER*/
 
 .header{
@@ -59,17 +64,40 @@
     position: relative;
 }
 
-.images{
-    max-width: 100%;
+.cards .front-image{
+    display: block;
+}
+
+.cards .back-image{
+    display: none;
+}
+
+.cards:hover .front-image{
+    display: none;
+}
+
+.cards:hover .back-image{
+    display: block;
 }
 
 .sec{
     margin-top: 80px;
 }
 
+.new-price{
+    color: rgb(248, 13, 13);
+}
+
+.old-price{
+    color: rgb(155, 150, 150);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+
 .sale-label{
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
 }
 
 .heart{
